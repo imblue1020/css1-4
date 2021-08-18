@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      #grid{
+        /* border:3px red solid; */
+        display:grid;
+        grid-template-columns:200px 1fr;
+
+      }
+
+      hr{width:auto;
+        background-color:black;
+        height:2px;
+      }
+
+      div{
+      /*  border:3px gray solid; */
+        /*grid-template-raw:1fr 1fr;*/
+
+      }
+
+      .item{ color:cornflowerblue;
+        font-size:90px;
+        padding:30px;
+      }
+
+      .item2{
+        font-size:25px;
+
+      }
+
+      .item3{margin:25px;
+
+      }
+
+      .v1{
+        border-right:2px black solid;
+        height:1000px;
+        width:230px;
+        padding:8px;
+
+      }
+    </style>
+
+  </head>
+
+  <body>
+      <div class="item">WEB</div>
+      <hr>
+      <div id="grid">
+
+      <div class="v1">
+      <ul>
+        <li class="item2">CSS</li>
+        <li class="item2">JavaScript</li>
+        <li class="item2">HTML</li>
+      </ul>
+      </div>
+
+      <div class="item3">
+      <div style="font-size:30px;">&nbsp&nbsp&nbsp HTML</div>
+      <br>
+      <div> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; HTML is Hypertext Language.....</div>
+      </div>
+
+    </div>
+  </body>
+</html>
